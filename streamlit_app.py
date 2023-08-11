@@ -43,7 +43,7 @@ def check_rate_limit():
     return load_api().rate_limit.get()
 
 
-@st.experimental_memo
+@st.cache_data
 def search_stargazers(repo, per_page=30):
     api = load_api()
     username, repository = repo.split("/")
