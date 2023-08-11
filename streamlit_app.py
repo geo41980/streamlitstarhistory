@@ -13,7 +13,7 @@ st.title("Streamlit Star History")
 st.sidebar.header("Configuration")
 
 
-@st.experimental_singleton
+@st.cache_resource
 def load_api():
     token = st.secrets["key"]
     return GhApi(token=token)
@@ -27,7 +27,7 @@ st.checkbox("Download star data from API")
 st.checkbox("Display plot with Plotly")
 
 
-@st.experimental_memo
+@st.cache_data
 def check_repo(repo: str):
     try:
         username, repository = repo.split("/")
