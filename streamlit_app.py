@@ -13,7 +13,10 @@ st.title("Streamlit Star History")
 st.sidebar.header("Configuration")
 
 
-public_gsheets_url = https://docs.google.com/spreadsheets/d/1K5_Rq3HQkIvtrbLl3VQqei1SVPjMnkxO8Hj64VtDPMc/edit?usp=sharing
+# .streamlit/secrets.toml
+
+#public_gsheets_url = "https://docs.google.com/spreadsheets/d/xxxxxxx/edit#gid=0"
+public_gsheets_url = "https://docs.google.com/spreadsheets/d/1K5_Rq3HQkIvtrbLl3VQqei1SVPjMnkxO8Hj64VtDPMc/edit?usp=sharing"
 
 @st.cache_resource
 def load_api():
