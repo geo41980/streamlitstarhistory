@@ -15,7 +15,7 @@ st.sidebar.header("Configuration")
 
 @st.experimental_singleton
 def load_api():
-    token = st.secrets["github"]["key"]
+    token = st.secrets["key"]
     return GhApi(token=token)
 
 
