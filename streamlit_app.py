@@ -15,4 +15,3 @@ df = load_data(st.secrets["public_gsheets_url"])
 # Print results.
 for row in df.itertuples():
     st.write(f"{row.name} has a :{row.pet}:")
-public_gsheets_url = "https://docs.google.com/spreadsheets/d/1K5_Rq3HQkIvtrbLl3VQqei1SVPjMnkxO8Hj64VtDPMc/edit?usp=sharing"
