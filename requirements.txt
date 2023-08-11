@@ -2,3 +2,5 @@ numpy
 pandas
 fastcore
 plotly
+fastcore
+ghapi
