@@ -1,7 +1,5 @@
 numpy
 pandas
-fastcore
-plotly
-fastcore
 ghapi
 gspread_pandas
+urllib3
