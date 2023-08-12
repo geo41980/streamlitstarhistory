@@ -4,3 +4,4 @@ fastcore
 plotly
 fastcore
 ghapi
+gspread_pandas
