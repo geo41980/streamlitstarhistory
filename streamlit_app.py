@@ -5,7 +5,7 @@ import pandas as pd
 sheets_url = st.secrets["public_gsheets_url"]
 
 # Daten aus der Google Sheet abrufen
-df = pd.read_csv(sheets_url)
+#df = pd.read_csv(sheets_url)
 
 # Daten in Streamlit anzeigen
-st.dataframe(df)
+#st.dataframe(df)
