@@ -3,3 +3,4 @@ pandas
 ghapi
 gspread_pandas
 urllib3
+google-auth
