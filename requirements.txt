@@ -2,5 +2,5 @@ numpy
 pandas
 ghapi
 gspread_pandas
-urllib3
+urllib3==1.26.16
 google-auth
